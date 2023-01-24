@@ -1,0 +1,22 @@
+Explicação de como rodar o projeto em outra máquina.
+
+1. Primeiro: acessar o link do GitHub: https://github.com/marcoshiroyshi/ProjetoBackEndFIAP.git
+
+2. Baixar os arquivos zipados.
+
+3. Extrair a pasta ProjetoBackEnd para a pasta source do Visual Studio
+
+4. Ao abrir o projeto, clicar no arquivo "appsettings.json"
+
+5. Na linha 4: 
+"DefaultConnection": "Data Source=MARCOS\\SQLEXPRESS;Initial Catalog=ProjetoBackEnd;Integrated Security=True;Encrypt=False"
+
+6. Mudar o valor dentro de Data Source, para o nome do servidor que está localizado no seu SQL Sserver.
+
+7. Após isso, ir em Ferramentas -> Gerenciador de Pacotes do Nuget -> Console do Gerenciador de Pacotes
+
+8. Escrever o comando "Update-Database". (nesse comando será criado o banco de dados no seu SQL server).
+
+9. Após isso, está tudo configurado para rodar o site.
+
+ 
